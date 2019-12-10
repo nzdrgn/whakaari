@@ -61,7 +61,7 @@ gulp.task('sass', function () {
 gulp.task('serve', function() {
   browserSync.init({
     files: "./*.html",
-    startPath: "./html/home/",
+    startPath: "./",
     server: {
       baseDir: "./",
     },
